@@ -1,0 +1,6 @@
+Hammad Rasheed
+IS 439
+Kevin Trainor
+4/10/2025
+
+This assignment consisted of refactoring our code using Django's generic class-based views to implement CRUD functionality to the web application in an easier and more concise manner. By using the Django Admin, we are able to further enhance the development process and make it even easier to streamline development, debugging, and testing. The first customization that can be implemented is a list_display property for all of the GCBV views. This would make it a lot easier to verify the data in each of the views. To implement this, you would have to define a custom ModelAdmin in the admin.py and add the desired files to list_display. This would allow for easy access to display the necessary data in the views. The second possible customization to improve development could be enabling inline editing for related files. Essentially, this would allow related objects to be edited directly in the parent model's admin page. This would make it much faster to test views and specific logic in a single interface. To do this, you would have to create an inline admin class and register it by editing the admin.py file. Overall, these customizations would help to boost the development process and validate data in an easier manner.

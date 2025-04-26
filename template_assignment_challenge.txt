@@ -1,0 +1,6 @@
+﻿Hammad Rasheed
+IS 439
+Kevin Trainor
+03/16/2025
+
+    To optimize the development process in the context of the Django Admin app, we can implement some customizations to make it more useful in the development field. The first customization that is particularly useful would be enhancing the URL management in the Django admin. This customization entails implementing a way to display and manage URL mappings directly from the Django admin, which can make it a lot easier to test and link pages. To do this, you would have to modify urls.py to register a new custom Django Admin view that lists all of the URL patterns. Then you have to create a management command to extract and display the mappings. This makes it much easier to debug the URLs and makes it simpler to determine whether or not page links are working correctly. For the second customization, a template preview (similar to the suggestion for my previous customization), would be a template rendering functionality. This would allow for an admin preview that renders selected templates, but with functionality for urls and links within the template. To do this, you would have to modify views.py and include an admin preview that renders specific templates with linking functionality. Overall these customizations would make it much easier for developers to create applications via the Django Admin app.

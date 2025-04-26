@@ -1,0 +1,12 @@
+Hammad Rasheed
+IS 439
+Kevin Trainor
+2/23/2025
+
+    One optimization for the Django Admin app would be customizing the list display and filtering for different models specifically. For example, you could filter for models like Instructor and Student.
+By allowing fields (ex. first_name, disambiguator, etc.) in the list display and adding filters for the attributes, it can make it easier to search for specific users and make it easier to deal with large datasets.
+The second optimization that could be incorporated into the Django Admin app would be using inlines for the models in the course admin view. This would allow administrators to view and edit sections directly
+while managing courses, so that it can be easier and more efficient for them to navigate between the course offerings. For the first optimization, you would have to edit the admin.py file and register the Instructor
+and Student models with custom administrator classes which would define a method to show specific fields in the admin list view to allow for filtering and optimized searches.
+For the second optimization, you would have to create a new class in admin.py and specify that it should be used within a new CourseAdmin class. Then you can register the new class
+and it would allow you to directly manage sections from the course page in the Django Admin App.
