@@ -77,6 +77,7 @@ class SectionDetail(LoginRequiredMixin, PermissionRequiredMixin,DetailView):
 class SectionCreate(LoginRequiredMixin, PermissionRequiredMixin,CreateView):
     form_class = SectionForm
     model = Section
+    permission_required = 'courseinfo.add_section'
 
 class SectionUpdate(LoginRequiredMixin, PermissionRequiredMixin,UpdateView):
     form_class = SectionForm
